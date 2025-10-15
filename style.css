@@ -5,7 +5,7 @@
   font-family:"Times New Roman",Times,serif;
 }
 img {
-  border-radius: 75%;
+  border-radius: 25%;
 }
 .row {
   display: flex;
