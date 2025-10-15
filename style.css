@@ -18,3 +18,11 @@ img {
 head {
       margin-bottom: 20px; 
     }
+.flex-style {
+  text-align: center
+  font-family:"Times New Roman",Times,serif;
+  font-weight: bold;
+  font-size: 5px;
+}
+  
+  
