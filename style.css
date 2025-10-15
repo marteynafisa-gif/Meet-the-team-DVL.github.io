@@ -4,3 +4,6 @@
 .tnr {
   font-family:"Times New Roman",Times,serif;
 }
+img {
+  border-radius: 50%;
+}
