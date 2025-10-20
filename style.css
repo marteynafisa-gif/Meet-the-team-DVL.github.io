@@ -30,7 +30,7 @@ head {
 .button {
     background-color: #800020;
     border: none;
-    color: white;
+    text-color: white;
     padding: 10px 20px;
     text-align: center;
     cursor: pointer;
@@ -42,8 +42,8 @@ head {
 hr.solid {
   margin-bottom: 100px;
   border-top: 3px solid black;
-  width: 50%; /* Or a specific pixel value like 150px */
-  margin: 0 auto; /* Centers the line if its width is less than 100% */
+  width: 75%; 
+  margin: 0 auto; 
   
 }
 .body {
