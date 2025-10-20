@@ -16,7 +16,7 @@ img {
   padding: 4px;
 }
 head {
-      margin-bottom: 20px; 
+      margin-bottom: 40px; 
     }
 .flex-style {
   text-align: center
@@ -33,6 +33,12 @@ head {
 hr.solid {
   border-top: 3px solid black;
 }
+.body {
+      margin-top: 20px;
+      margin-bottom: 20px; 
+    }
+
+
 
   
   
