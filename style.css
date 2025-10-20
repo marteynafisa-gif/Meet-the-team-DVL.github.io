@@ -17,10 +17,10 @@ img {
   flex: 25%;
   padding: 6px;
 }
-head {
+<!--head {
       margin-top: 0px;
       margin-bottom: 0px; 
-    }
+    } -->
 .flex-style {
   text-align: center
   font-family:"Times New Roman",Times,serif;
@@ -39,7 +39,6 @@ head {
   }
 
 hr.solid {
-  margin-bottom: 400px;
   border-top: 3px solid black;
   width: 75%; 
   margin: 0 auto; 
@@ -49,12 +48,7 @@ hr.solid {
       margin-top: 300px;
       margin-bottom: 300px; 
     }
-margin {
-  margin-bottom: 300px;
-}
-.text {
-  text-color: white;
-}
+
   
 
 
