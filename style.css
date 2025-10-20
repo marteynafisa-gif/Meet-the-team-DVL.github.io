@@ -17,7 +17,7 @@ img {
   padding: 6px;
 }
 head {
-      margin-top: 400px;
+      margin-top: 200px;
       margin-bottom: 40px; 
     }
 .flex-style {
@@ -43,8 +43,8 @@ hr.solid {
   border-top: 3px solid black;
   
 }
-body {
-      margin-top: 300px;
-      margin-bottom: 300px; 
+.body {
+      margin-top: 100px;
+      margin-bottom: 100px; 
     }
 
