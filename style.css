@@ -4,17 +4,17 @@
 .tnr {
   font-family:"Times New Roman",Times,serif;
 }
-<!-- img {
-  border-radius: 25%;
+img {
+  border-radius: 10%;
 }
--->
+
 .row {
   display: flex;
 }
 
 .column {
   flex: 25%;
-  padding: 4px;
+  padding: 6px;
 }
 head {
       margin-bottom: 40px; 
