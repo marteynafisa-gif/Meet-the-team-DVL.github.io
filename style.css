@@ -32,7 +32,6 @@ head {
 .my-button {
     background-color: #800020;
     border: none;
-    color: white;
     padding: 10px 20px;
     text-align: center;
     cursor: pointer;
@@ -54,6 +53,9 @@ hr.solid {
     }
 .margin {
   margin-bottom: 300px;
+}
+.text {
+  text-color: white;
 }
   
 
