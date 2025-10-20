@@ -18,8 +18,8 @@ img {
 }
 head {
       margin-top: 200px;
-      margin-bottom: 40px; 
-      font-size: 20px;
+      margin-bottom: 60px; 
+      font-size: 30px;
     }
 .flex-style {
   text-align: center
@@ -27,7 +27,7 @@ head {
   font-weight: bold;
   font-size: 10px;
 }
-.button {
+.button a {
     background-color: #800020;
     border: none;
     text-color: white;
