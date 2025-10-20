@@ -4,9 +4,10 @@
 .tnr {
   font-family:"Times New Roman",Times,serif;
 }
-img {
+<!-- img {
   border-radius: 25%;
 }
+-->
 .row {
   display: flex;
 }
@@ -31,7 +32,9 @@ head {
     border: none;
   }
 hr.solid {
+  margin-bottom: 100px;
   border-top: 3px solid black;
+  
 }
 .body {
       margin-top: 20px;
