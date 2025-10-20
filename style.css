@@ -5,7 +5,7 @@
   font-family:"Times New Roman",Times,serif;
 }
 img {
-  border-radius: 10%;
+  border-radius: 0%;
 }
 
 .row {
@@ -17,8 +17,10 @@ img {
   padding: 6px;
 }
 head {
+      text-color: #800020;
       margin-top: 200px;
       margin-bottom: 40px; 
+      font-size: 20px;
     }
 .flex-style {
   text-align: center
@@ -41,6 +43,8 @@ head {
 hr.solid {
   margin-bottom: 100px;
   border-top: 3px solid black;
+  width: 50%; /* Or a specific pixel value like 150px */
+  margin: 0 auto; /* Centers the line if its width is less than 100% */
   
 }
 .body {
