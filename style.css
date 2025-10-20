@@ -26,12 +26,18 @@ head {
   font-weight: bold;
   font-size: 10px;
 }
-button {
+.button {
     background-color: #800020;
+    border: none;
     color: white;
     padding: 10px 20px;
-    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 8px;
+    display: inline-block;
+    
   }
+
 hr.solid {
   margin-bottom: 100px;
   border-top: 3px solid black;
