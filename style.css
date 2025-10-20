@@ -24,6 +24,12 @@ head {
   font-weight: bold;
   font-size: 5px;
 }
+.myButton {
+    background-color: burgundy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+  }
 
   
   
