@@ -1,54 +1,100 @@
-.center-text {
+/* Base reset & tokens */
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+  --brand: #800020; /* burgundy */
+  --text: #111;
+  --muted: #555;
+  --card-bg: #fff;
+  --border: #e5e7eb;
+  --radius: 14px;
+  --shadow: 0 6px 20px rgba(0,0,0,.08);
+}
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  color: var(--text);
+  background: #fafafa;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Titles centered */
+header {
+  text-align: center;
+  padding: 32px 0 12px;
+}
+
+h1, h2 {
+  margin: 0 0 8px;
+  font-weight: 700;
+  text-align: center; /* key line */
+}
+h1 { font-size: clamp(28px, 4vw, 42px); }
+h2 { font-size: clamp(22px, 3vw, 28px); margin-top: 40px; }
+
+.rule {
+  width: min(75%, 680px);
+  margin: 12px auto 24px;
+  border: 0;
+  border-top: 3px solid #000;
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+/* Card styles */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.card-body {
+  padding: 14px 14px 18px;
   text-align: center;
 }
-.tnr {
-  font-family:"Times New Roman",Times,serif;
-  
-}
-img {
-  border-radius: 0%;
+
+.name { font-weight: 700; }
+.role { color: var(--muted); margin-top: 2px; }
+
+/* Button-like link */
+.btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 16px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  background: var(--brand);
+  border-radius: 999px;
+  transition: transform .06s ease, filter .2s ease;
 }
 
-.row {
-  display: flex;
-}
+.btn:hover { filter: brightness(1.05); }
+.btn:active { transform: translateY(1px); }
 
-.column {
-  flex: 25%;
-  padding: 6px;
-}
-<!--head {
-      margin-top: 0px;
-      margin-bottom: 0px; 
-    } -->
-.flex-style {
-  text-align: center
-  font-family:"Times New Roman",Times,serif;
-  font-weight: bold;
-  font-size: 10px;
-}
-.my-button {
-    background-color: #800020;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 8px;
-    display: inline-block;
-    
-  }
-
-hr.solid {
-  border-top: 3px solid black;
-  width: 75%; 
-  margin: 0 auto; 
-  
-}
-.body {
-      margin-top: 300px;
-      margin-bottom: 300px; 
-    }
-
-  
-
-
+/* Spacing between sections */
+.section { margin-bottom: 36px; }
